@@ -4,6 +4,7 @@ import Head from 'next/head';
 import DefaultCarousel from '@/components/Carousel';
 import ECommerceCard from '@/components/Card';
 import Footer from '@/components/Footer';
+import Button from '@/components/Button';
 
 const HomePage = () => {
   return (
@@ -16,16 +17,16 @@ const HomePage = () => {
       </Head>
 
       <Navbar/>
-
+      
       <main className="text-center">
         <h1 className="text-4xl font-bold mt-10 mb-1 text-neutral-950">Bienvenido a nuestra tienda en línea</h1>
-        
+        <Button/>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 h-96 w-auto">
         <DefaultCarousel/>
         </div>
 
         <p className="text-lg mb-2 text-neutral-900">Encuentra los mejores productos al mejor precio.</p>
-        <a href="./productos" className="bg-transparent text-sky-500 font-bold py-2 px-4">
+        <a href="./productos" className="bg-transparent hover:text-sky-300   text-sky-500 font-bold py-2 px-4">
           Ver Productos &gt;
         </a>
       </main>
