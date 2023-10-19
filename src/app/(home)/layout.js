@@ -1,7 +1,9 @@
 import React from 'react'
 import { Inter } from 'next/font/google'
 import '../globals.css';
+import NavbarComponent from '@/components/NavbarComponent';
 const inter = Inter({ subsets: ['latin'] })
+import '../tailwind.css';
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className='bg-rgb-gradient dark:bg-gray-900'>
+        <header>
+          <title>Game-Shop</title>
+        </header>
+        <header>
+          <NavbarComponent />
+        </header>
         {children}
       </body>
     </html>
