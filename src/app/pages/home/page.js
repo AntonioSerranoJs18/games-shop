@@ -16,7 +16,7 @@ const HomePage = () => {
 
       <Navbar/>
 
-      <main className="text-center py-16 flex-1">
+      <main className="text-center py-28 flex-1">
         <h1 className="text-4xl font-bold mt-10 mb-6 text-neutral-950">Bienvenido a nuestra tienda en línea</h1>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 h-96 w-auto">
           <DefaultCarousel/>
