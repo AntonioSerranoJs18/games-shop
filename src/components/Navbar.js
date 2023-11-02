@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faShoppingCart, faUser} from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -22,10 +22,10 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-4">
           <a href="./items" className="text-neutral-950 hover:text-neutral-500">
-            <FontAwesomeIcon icon={faShoppingCart} className="h-6 w-6" />
+            <FontAwesomeIcon icon={faShoppingCart} className="h-6 w-6"/>
           </a>
           <a href="./login" className="text-neutral-950 hover:text-neutral-500 flex items-center">
-            <FontAwesomeIcon icon={faUser} className="h-6 w-6 mr-2" />
+            <FontAwesomeIcon icon={faUser} className="h-6 w-6 mr-2"/>
             Iniciar Sesión
           </a>
         </div>

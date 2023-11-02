@@ -4,7 +4,7 @@ import { Carousel } from 'flowbite-react';
 
 export default function DefaultCarousel() {
   return (
-    <Carousel>
+    <Carousel className='h-96'>
       <img
         alt="..."
         src="https://www.lavanguardia.com/files/article_main_microformat/uploads/2022/09/28/633374d106b46.jpeg"

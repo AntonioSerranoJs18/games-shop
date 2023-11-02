@@ -2,17 +2,28 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900 text-white py-6">
-      <div className="container mx-auto flex flex-col items-center">
-        <div className="flex items-center space-x-4">
-          <span className='text-neutral-950'>© 2023 Game Store. Todos los derechos reservados.</span>
+    <footer className="text-black py-8">
+      <div className="container mx-auto flex flex-wrap justify-between">
+        <div className="w-full md:w-1/3 mb-6 md:mb-0">
+          <h2 className="text-2xl font-semibold mb-4">Nuestra Tienda</h2>
+          <p>Game Store</p>
+          <p>Merida, Yucatan</p>
+          <p>Email: gamestore@outlook.com</p>
         </div>
-        <div className="mt-4">
-          <ul className="flex space-x-4">
-            <li><a href="#" className="text-neutral-950 hover:text-neutral-500">Inicio</a></li>
-            <li><a href="#" className="text-neutral-950 hover:text-neutral-500">Productos</a></li>
-            <li><a href="#" className="text-neutral-950 hover:text-neutral-500">Acerca de Nosotros</a></li>
-            <li><a href="#" className="text-neutral-950 hover:text-neutral-500">Contacto</a></li>
+        <div className="w-full md:w-1/3 mb-6 md:mb-0">
+          <h2 className="text-2xl font-semibold mb-4">Enlaces Rápidos</h2>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Soporte</a></li>
+          </ul>
+        </div>
+        <div className="w-full md:w-1/3">
+          <h2 className="text-2xl font-semibold mb-4">Redes Sociales</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
           </ul>
         </div>
       </div>
